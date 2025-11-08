@@ -4,9 +4,9 @@
 [![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red.svg)](https://github.com/yourusername/bible-ai)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
-> 🙏 **Your Daily Scripture Companion** - Discover random Bible verses with AI-powered insights and multiple translations
+> **Your Daily Scripture Companion** - Discover random Bible verses with AI-powered insights and multiple translations
 
-## 🌟 What is Bible AI?
+## 🙏 🌟 What is Bible AI?
 
 Bible AI is a revolutionary **Bible verse generator app** that combines the timeless wisdom of Scripture with cutting-edge **AI technology**. Get random Bible verses, explore multiple translations, and receive intelligent insights to deepen your faith journey.
 
