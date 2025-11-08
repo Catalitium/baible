@@ -132,7 +132,7 @@
       };
 
       let BOOK_TOKENS;
-      const STORAGE_KEYS = { lang: 'baible.lang', multi: 'baible.multi', reminder: 'baible.reminder' };
+      const STORAGE_KEYS = { lang: 'Vibel.lang', multi: 'Vibel.multi', reminder: 'Vibel.reminder' };
       const APP_DATA_VERSION = 1;
       const MAX_RESULTS = 200;
       const INITIAL_BATCH = 40;
@@ -227,7 +227,7 @@
   }
   }
   function createStorage() {
-  const DB_NAME = 'baible.store';
+  const DB_NAME = 'Vibel.store';
   const STORE = 'languages';
   let dbPromise = null;
   function openDB() {
@@ -1386,7 +1386,7 @@
     });
   }
   if (isBrowser) {
-    document.title = `Baible - ${copy.name}`;
+    document.title = `Vibel - ${copy.name}`;
   }
   renderSuggestions();
   renderLangStatus();
@@ -1754,9 +1754,9 @@
   if (result.type === 'chapter') {
     const preview = result.verses.slice(0, 6).map(item => `${item.verse}. ${item.text}`).join('\n');
     const suffix = result.verses.length > 6 ? '\n…' : '';
-    return `${result.title}\n${preview}${suffix}\n— Baible`;
+    return `${result.title}\n${preview}${suffix}\n— Vibel`;
   }
-  return `${result.title}\n${result.text}\n— Baible`;
+  return `${result.title}\n${result.text}\n— Vibel`;
 }
 
   function populateTranslationPanel(panel) {
@@ -1992,7 +1992,7 @@
     }
     trackEvent('page_view', {
       page_location: locationApi ? locationApi.href : '',
-      page_title: 'Baible'
+      page_title: 'Vibel'
     });
   }
 
